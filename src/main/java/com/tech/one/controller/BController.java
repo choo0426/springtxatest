@@ -16,16 +16,6 @@ import com.tech.spring_tx_board.vopage.SearchVO;
 public class BController {
 
 	public JdbcTemplate template;
-<<<<<<< HEAD
-	
-/*	public void setTemplate(JdbcTemplate template) {
-		this.template = template;
-		Constant.template=this.template;
-	}*/
-	@Autowired
-	private SqlSession sqlSession;
-	
-=======
 
 	/*
 	 * public void setTemplate(JdbcTemplate template) { this.template = template;
@@ -35,7 +25,6 @@ public class BController {
 	@Autowired
 	private SqlSession sqlSession;
 
->>>>>>> listbrh2
 	@RequestMapping("/list")
 
 	public String list(HttpServletRequest request, SearchVO searchVO, Model model) {
